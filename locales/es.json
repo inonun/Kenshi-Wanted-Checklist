@@ -1,0 +1,102 @@
+{
+  "app": {
+    "documentTitle": "Kenshi · Se busca — Checklist de recompensas",
+    "title": "Se busca",
+    "subtitle": "Checklist de recompensas de Kenshi",
+    "description": "Marca los criminales que ya capturaste. Tu progreso se guarda en este navegador, así que puedes refrescar la página sin perderlo."
+  },
+  "header": {
+    "language": "Idioma",
+    "themeToLight": "Cambiar a modo claro",
+    "themeToDark": "Cambiar a modo oscuro"
+  },
+  "tip": {
+    "title": "Consejo",
+    "text": "Entrega al criminal vivo para cobrar la recompensa completa. Si lo entregas muerto, solo recibes la mitad."
+  },
+  "progress": {
+    "title": "Progreso",
+    "captured": "{done} de {total} capturados",
+    "claimed": "Cobrado",
+    "remaining": "Por cobrar",
+    "estimate": "Valores aproximados en cats",
+    "reset": "Reiniciar progreso",
+    "resetConfirm": "¿Seguro que quieres borrar todo tu progreso? Esta acción no se puede deshacer."
+  },
+  "filters": {
+    "search": "Buscar",
+    "searchPlaceholder": "Nombre, lugar, facción, arma…",
+    "tier": "Categoría",
+    "tierAll": "Todas",
+    "status": "Estado",
+    "statusOptions": {
+      "all": "Todos",
+      "pending": "Pendientes",
+      "done": "Capturados"
+    },
+    "sort": "Ordenar por",
+    "sortOptions": {
+      "rewardDesc": "Recompensa (mayor a menor)",
+      "rewardAsc": "Recompensa (menor a mayor)",
+      "name": "Nombre (A-Z)",
+      "location": "Ubicación (A-Z)",
+      "difficultyDesc": "Dificultad (mayor a menor)",
+      "difficultyAsc": "Dificultad (menor a mayor)"
+    },
+    "reset": "Limpiar filtros",
+    "results": "Mostrando {shown} de {total}"
+  },
+  "tiers": {
+    "superboss": "Superjefe",
+    "boss": "Jefe",
+    "unique": "NPC único"
+  },
+  "card": {
+    "wanted": "Se busca",
+    "reward": "Recompensa",
+    "cats": "cats",
+    "location": "Ubicación",
+    "faction": "Facción",
+    "race": "Raza",
+    "weapon": "Arma",
+    "turnIn": "Entregar a",
+    "captured": "Capturado",
+    "markCaptured": "Marcar a {name} como capturado",
+    "wiki": "Wiki",
+    "noFixedHome": "Sin ubicación fija (evento especial)",
+    "originalName": "Nombre original"
+  },
+  "notes": {
+    "poster": "Solo se conoce el valor del cartel; el monto real en el juego puede variar.",
+    "headSale": "No hay que entregar un cuerpo: saquea la cabeza y véndela a cualquier comerciante.",
+    "sharedBounty": "Las Ciudades Unidas y el Gremio de Comerciantes comparten recompensas, así que la wiki lo lista duplicado (c. 20.000).",
+    "higherThanPoster": "La recompensa real en el juego es mayor que la del cartel.",
+    "noPoster": "No existe cartel de se busca, pero el juego le asigna recompensa."
+  },
+  "empty": {
+    "title": "Sin resultados",
+    "text": "Ningún criminal coincide con los filtros actuales.",
+    "clear": "Limpiar filtros"
+  },
+  "errors": {
+    "loadTitle": "No se pudieron cargar los datos",
+    "loadText": "Si abriste index.html directamente desde el disco, el navegador bloquea la carga de archivos JSON. Sirve la carpeta con un servidor local (por ejemplo: python -m http.server) o publícala en GitHub Pages."
+  },
+  "footer": {
+    "sources": "Datos de la Kenshi Wiki (CC BY-SA) y archivos de Kenshi.",
+    "disclaimer": "Proyecto de fans, sin afiliación con Lo-Fi Games. Kenshi © Lo-Fi Games Ltd."
+  },
+  "difficulty": {
+    "label": "Dificultad",
+    "estimated": "estimada",
+    "hint": "* Dificultad estimada: es una valoración propia según la guardia, el entorno y el nivel de combate. No es un dato oficial del juego.",
+    "aria": "Dificultad estimada: {level} de 5 ({name})",
+    "levels": {
+      "1": "Fácil",
+      "2": "Moderada",
+      "3": "Difícil",
+      "4": "Muy difícil",
+      "5": "Extrema"
+    }
+  }
+}

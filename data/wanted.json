@@ -1,0 +1,1135 @@
+{
+  "meta": {
+    "version": 2,
+    "currency": "cats",
+    "sources": [
+      "Kenshi localization",
+      "Kenshi UI strings",
+      "https://kenshi.fandom.com/wiki/Bounty"
+    ],
+    "last_updated": "2026-11-08",
+    "notes_field_legend": {
+      "higherThanPoster": "The actual in-game bounty is higher than the reward shown on the WANTED poster",
+      "noPoster": "No WANTED poster exists in the game files for this character (bounty is still paid)",
+      "poster": "A WANTED poster exists for this character",
+      "headSale": "Head can be sold separately as a trophy",
+      "sharedBounty": "Bounty is shared among multiple characters"
+    }
+  },
+  "entries": [
+    {
+      "id": "bugmaster",
+      "name": "Bugmaster",
+      "tier": "superboss",
+      "reward": 100000,
+      "difficulty": 5,
+      "location": "Throne of the Bugmaster",
+      "faction": "Spiders",
+      "race": "Greenlander",
+      "weapon": "Meitou Foreign Sabre",
+      "turnIn": [
+        "Shek Kingdom",
+        "United Cities",
+        "Rebel Swordsmen"
+      ],
+      "notes": [
+        "poster"
+      ],
+      "wiki": "Bugmaster",
+      "lore": {
+        "es": "Domina el Trono del Bugmaster rodeado de un ejército de Arañas Skin y Blood. Conviene un escuadrón fuerte y bien equipado, o un intento de noqueo sigiloso.",
+        "en": "Holds the Throne of the Bugmaster, surrounded by an army of Skin and Blood Spiders. Bring a strong, well-geared squad, or try a stealthy knockout."
+      },
+      "name_es": "Maestro Sabandija",
+      "game_lore": {
+        "es": "El célebre criminal \"Maestro Sabandija\".  Se busca por vandalismo, saqueos, asesinatos en masa, canibalismo, genocidio.\\n\\nEXTREMADAMENTE PELIGROSO. Ataca sin previo aviso, parece tener el control de un ejército de arañas. Los motivos de esta habilidad son desconocidos, la motivación desconocida.\\n\\nLa residencia conocida está en el cráter de Arach, al suroeste del Desierto Stenn y las Llanuras de la Araña.  \\n\\nRECOMPENSA: c.100,000\\n\\nINFORMACIÓN DE ÚLTIMA HORA: Inteligencia indica que el \"Maestro Sabandija\" está además en posesión de una gran cantidad de tesoros. Cualquier objeto de valor o artefactos encontrados en el arresto o asesinato de el objetivo puedes cogerlo libremente.",
+        "en": "The notorious criminal \"Bugmaster\".  Wanted for banditry, raiding, mass-murder, cannibalism, genocide.\\n\\nEXTREMELY DANGEROUS.  Attacks on sight, appears to have control of an army of spiders.  Reasons for this ability are unknown, motivation unknown.\\n\\nKnown residence is in the crater of Arach, south-west of the Stenn Desert and Spider Plains.  \\n\\nREWARD: c.100,000\\n\\nUPDATE: Intelligence indicates that the \"Bugmaster\" is also in posession of a large amount of treasure.  Any valuables or artifacts found in the apprehension or assassination of the target is free for you to take."
+      },
+      "poster_reward": 100000
+    },
+    {
+      "id": "holy-lord-phoenix",
+      "name": "Holy Lord Phoenix",
+      "tier": "superboss",
+      "reward": 100000,
+      "difficulty": 5,
+      "location": "Blister Hill",
+      "faction": "The Holy Nation",
+      "race": "Greenlander",
+      "weapon": "Meitou Paladin's Cross",
+      "turnIn": [
+        "Shek Kingdom",
+        "Kral's Chosen",
+        "Flotsam Ninjas",
+        "United Cities",
+        "Rebel Swordsmen"
+      ],
+      "notes": [
+        "noPoster"
+      ],
+      "wiki": "Holy_Lord_Phoenix",
+      "lore": {
+        "es": "Líder de la Nación Sagrada. Te recibe en su sala del trono de Colina Ampolla, custodiada por Altos Paladines y el Protector de la Llama.",
+        "en": "Leader of the Holy Nation. He holds court in his throne room at Blister Hill, guarded by High Paladins and the Protector of the Flame."
+      }
+    },
+    {
+      "id": "tinfist",
+      "name": "Tinfist",
+      "tier": "superboss",
+      "reward": 100000,
+      "difficulty": 5,
+      "location": "Spring",
+      "faction": "Anti-Slavers",
+      "race": "Skeleton",
+      "weapon": "martial-arts",
+      "turnIn": [
+        "United Cities",
+        "Rebel Swordsmen",
+        "The Holy Nation"
+      ],
+      "notes": [
+        "higherThanPoster",
+        "poster"
+      ],
+      "wiki": "Tinfist",
+      "lore": {
+        "es": "Esqueleto maestro de artes marciales y líder de los Antiesclavistas, con base en Manantial.",
+        "en": "Skeleton martial-arts master and leader of the Anti-Slavers, based in Spring."
+      },
+      "name_es": "Puñolata",
+      "game_lore": {
+        "es": "¡El terror del Bruto de Metal pronto acabará!\\n¿Serás TÚ el héroe de los inocentes?\\n\\n\\nRECOMPENSA: c.50,000",
+        "en": "The Metal Brute's terror is soon to end!\\nWill YOU be the hero of the innocent?\\n\\n\\nREWARD: c.50,000"
+      },
+      "poster_reward": 50000
+    },
+    {
+      "id": "savant",
+      "name": "Savant",
+      "tier": "boss",
+      "reward": 80000,
+      "difficulty": 4,
+      "location": "Skinhouse HQ",
+      "faction": "Skin Bandits",
+      "race": "Scorchlander",
+      "weapon": "Meitou Nodachi",
+      "turnIn": [
+        "United Cities",
+        "Rebel Swordsmen"
+      ],
+      "notes": [
+        "higherThanPoster",
+        "noPoster"
+      ],
+      "wiki": "Savant",
+      "lore": {
+        "es": "Líder de los Bandidos Skin en su cuartel, Skinhouse.",
+        "en": "Leader of the Skin Bandits at Skinhouse HQ."
+      }
+    },
+    {
+      "id": "king-gurgler",
+      "name": "King Gurgler",
+      "tier": "boss",
+      "reward": 60000,
+      "difficulty": 4,
+      "location": "Island Lab",
+      "faction": "Fishmen",
+      "race": "Alpha Fishman",
+      "weapon": "Meitou Combat Cleaver",
+      "turnIn": [],
+      "notes": [
+        "poster",
+        "headSale",
+        "noPoster"
+      ],
+      "wiki": "King_Gurgler",
+      "lore": {
+        "es": "Comanda a los Hombres Pez desde el Laboratorio de la Isla, en la Isla de los Hombres Pez, con una Cuchilla de combate Meitou. Deja caer la Cabeza de Gurgler.",
+        "en": "Commands the Fishmen from the Island Lab on Fishman Island, wielding a Meitou Combat Cleaver. Drops the Gurgler Head."
+      }
+    },
+    {
+      "id": "esata-the-stone-golem",
+      "name": "Esata the Stone Golem",
+      "tier": "superboss",
+      "reward": 50000,
+      "difficulty": 5,
+      "location": "Admag",
+      "faction": "Shek Kingdom",
+      "race": "Shek",
+      "weapon": "Meitou Fragment Axe",
+      "turnIn": [
+        "United Cities",
+        "Rebel Swordsmen",
+        "The Holy Nation"
+      ],
+      "notes": [
+        "noPoster"
+      ],
+      "wiki": "Esata_the_Stone_Golem",
+      "lore": {
+        "es": "Líder del Reino Shek, sentado en el cuartel de la facción en Admag con un Hacha fragmento Meitou.",
+        "en": "Leader of the Shek Kingdom, seated in the faction HQ in Admag with a Meitou Fragment Axe."
+      }
+    },
+    {
+      "id": "gorrillo",
+      "name": "Gorrillo",
+      "tier": "boss",
+      "reward": 60000,
+      "difficulty": 3,
+      "location": "The Old Prison",
+      "faction": "The Gorrillo Bandits",
+      "race": "Greenlander",
+      "weapon": "Meitou Exile Plank",
+      "turnIn": [
+        "United Cities",
+        "Rebel Swordsmen",
+        "Shek Kingdom"
+      ],
+      "notes": [
+        "poster"
+      ],
+      "wiki": "Gorrillo",
+      "lore": {
+        "es": "Líder de los Bandidos de Gorrillo, atrincherado en La Vieja Prisión.",
+        "en": "Leader of the Gorrillo Bandits, holed up in The Old Prison."
+      },
+      "name_es": "Gorilo",
+      "game_lore": {
+        "es": "Raza: Verdenés\\nGénero: Varón\\nDescripción: Inhumanamente grande. Lento de mente.\\n\\nTambién conocido como la Roca.\\n\\nSe busca por robo, asalto y destrucción de propiedad, concretamente en el pueblo perdido de Luto. Se cree que está escondiéndose en alguna parte de la Zona Prohibida junto a sus seguidores, los Bandidos Gorilo.\\n\\nRECOMPENSA: c.60,000",
+        "en": "Race: Greenlander\\nGender: Male\\nDescription: Inhumanly large. Slow of mind.\\n\\nAlso known as the Boulder.\\n\\nWanted for robbery, assault and destruction of property, namely within the lost town of Mourn. Thought to be hiding out somewhere in the Forbidden Zone with his followers, the Gorrillo Bandits.  \\n\\nREWARD: c.60,000"
+      },
+      "poster_reward": 60000
+    },
+    {
+      "id": "moll",
+      "name": "Moll",
+      "tier": "superboss",
+      "reward": 50000,
+      "difficulty": 5,
+      "location": "Flotsam Village",
+      "faction": "Flotsam Ninjas",
+      "race": "Scorchlander",
+      "weapon": "2x Ninja Blade",
+      "turnIn": [
+        "The Holy Nation"
+      ],
+      "notes": [
+        "higherThanPoster",
+        "poster"
+      ],
+      "wiki": "Moll",
+      "lore": {
+        "es": "Líder de los Ninjas de Flotsam en la Aldea Flotsam, en el Bosque Oculto, protegida por guardaespaldas Jonin.",
+        "en": "Leader of the Flotsam Ninjas in Flotsam Village, Hidden Forest, protected by Jonin bodyguards."
+      },
+      "name_es": "Moll",
+      "game_lore": {
+        "es": "Su Santa Excelencia Señor Fénix, alabado sea Su nombre, le concede el honor de servir a la voluntad de Okran limpiando al infame sirviente de la Diablesa Narko que se hace llamar \"Moll\".\\n\\nSe busca por los crímenes de blasfemia, traición, desobediencia, brujería, terrorismo, asesinato, infanticidio, canibalismo, independencia femenina, pirómana, secuestro, control mental, chantaje, hurto y difamación.\\n\\nParadero desconocido. Entre sus habilidades conocidas están el uso de la magia negra y control mental que emplea para lavar el cerebro de su oscuro ejército de ninjas demonios. Se recomienda que ataques rápidamente y sin avisar para no darle la oportunidad de hablar con sus palabras envenenadas.\\n\\nRECOMPENSA: C.30,000",
+        "en": "His Holy Excellency Lord Phoenix, praise be His name, bestows upon you the holy honor of serving Okran's will by cleansing the foul servant of the Demoness Narko going by the name of \"Moll\".\\n\\nWanted for the crimes of blasphemy, treason, disobedience, witchcraft, terrorism, murder, child murder, cannibalism, female independence, arson, kidnapping, mind-control, blackmail, thievery and slander.\\n\\nWhereabouts are unknown.  Known abilities are the use of dark magics and mind control that she uses to brainwash her dark army of demon ninjas.  It is recommended that you attack quickly and without warning so as not to give her a chance to speak her tainted words.\\n\\nREWARD: c.30,000"
+      },
+      "poster_reward": 30000
+    },
+    {
+      "id": "valamon",
+      "name": "Valamon",
+      "tier": "superboss",
+      "reward": 50000,
+      "difficulty": 4,
+      "location": "Ark",
+      "faction": "Reavers",
+      "race": "Shek",
+      "weapon": "Meitou Longsword",
+      "turnIn": [
+        "United Cities",
+        "Rebel Swordsmen"
+      ],
+      "notes": [
+        "poster"
+      ],
+      "wiki": "Valamon",
+      "lore": {
+        "es": "Líder de los Reavers en su capital, el Arca.",
+        "en": "Leader of the Reavers in their capital, Ark."
+      },
+      "name_es": "Valamón",
+      "game_lore": {
+        "es": "Raza: Shek\\nGénero: Varón\\nDescripción: Alto, musculoso, piel grisácea.\\n\\nCaudillo y líder de los bandidos Bandoleros, muy conocido en la Zona Prohibida. Se busca por robo, asesinato, secuestro y adoctrinamiento de patrullas de las Ciudades Unidas y ciudadanos de viaje.\\n\\nAVISO: Organizado, armado y peligroso.\\n\\nRECOMPENSA: c.50,000",
+        "en": "Race: Shek\\nGender: Male\\nDescription: Tall, muscular, grey-skinned\\n\\nWarlord and leader of the Reaver bandits notorious from the Forbidden Zone. Wanted for robbery, murder, kidnapping and indoctrination of United Cities patrols and travelling citizens.\\n\\nWARNING: Organised, armed and dangerous.\\n\\nREWARD: c.50,000"
+      },
+      "poster_reward": 50000
+    },
+    {
+      "id": "cannibal-grand-wizard",
+      "name": "Cannibal Grand Wizard",
+      "tier": "unique",
+      "reward": 40000,
+      "difficulty": 4,
+      "location": "Cannibal Capital",
+      "faction": "Cannibals",
+      "race": "Cannibal",
+      "weapon": "Ancient Moon Cleaver",
+      "turnIn": [
+        "United Cities",
+        "Rebel Swordsmen",
+        "The Holy Nation",
+        "Shek Kingdom"
+      ],
+      "notes": [
+        "noPoster"
+      ],
+      "wiki": "Cannibal_Grand_Wizard",
+      "lore": {
+        "es": "Jefe caníbal que reside en la Capital Caníbal, armado con una Cuchilla lunar antigua.",
+        "en": "Cannibal chief who resides in the Cannibal Capital, armed with an Ancient Moon Cleaver."
+      }
+    },
+    {
+      "id": "crab-queen",
+      "name": "Crab Queen",
+      "tier": "superboss",
+      "reward": 40000,
+      "difficulty": 4,
+      "location": "Crab Town",
+      "faction": "Crab Raiders",
+      "race": "Scorchlander",
+      "weapon": "Meitou Naginata",
+      "turnIn": [
+        "United Cities",
+        "Rebel Swordsmen"
+      ],
+      "notes": [
+        "noPoster"
+      ],
+      "wiki": "Crab_Queen",
+      "lore": {
+        "es": "Líder de los Saqueadores Cangrejo en el Pueblo Cangrejo.",
+        "en": "Leader of the Crab Raiders in Crab Town."
+      }
+    },
+    {
+      "id": "high-inquisitor-seta",
+      "name": "High Inquisitor Seta",
+      "tier": "superboss",
+      "reward": 40000,
+      "difficulty": 4,
+      "location": "Stack",
+      "faction": "The Holy Nation",
+      "race": "Greenlander",
+      "weapon": "Paladin's Cross",
+      "turnIn": [
+        "Shek Kingdom",
+        "Kral's Chosen",
+        "Flotsam Ninjas",
+        "United Cities",
+        "Rebel Swordsmen"
+      ],
+      "notes": [
+        "noPoster"
+      ],
+      "wiki": "High_Inquisitor_Seta",
+      "lore": {
+        "es": "Alta Inquisidora de la Nación Sagrada, destacada en Stack.",
+        "en": "High Inquisitor of the Holy Nation, stationed in Stack."
+      }
+    },
+    {
+      "id": "high-inquisitor-valtena",
+      "name": "High Inquisitor Valtena",
+      "tier": "superboss",
+      "reward": 40000,
+      "difficulty": 4,
+      "location": "Okran's Shield",
+      "faction": "The Holy Nation",
+      "race": "Greenlander",
+      "weapon": "Paladin's Cross",
+      "turnIn": [
+        "Shek Kingdom",
+        "Kral's Chosen",
+        "Flotsam Ninjas",
+        "United Cities",
+        "Rebel Swordsmen"
+      ],
+      "notes": [
+        "noPoster"
+      ],
+      "wiki": "High_Inquisitor_Valtena",
+      "lore": {
+        "es": "Alta Inquisidora de la Nación Sagrada, destacada en el Escudo de Okran.",
+        "en": "High Inquisitor of the Holy Nation, stationed in Okran's Shield."
+      }
+    },
+    {
+      "id": "dust-king",
+      "name": "Dust King",
+      "tier": "boss",
+      "reward": 35000,
+      "difficulty": 3,
+      "location": "Dust King Tower",
+      "faction": "Dust Bandits",
+      "race": "Greenlander",
+      "weapon": "Ringed Sabre",
+      "turnIn": [
+        "United Cities",
+        "Rebel Swordsmen",
+        "The Holy Nation",
+        "Shek Kingdom"
+      ],
+      "notes": [
+        "poster",
+        "higherThanPoster"
+      ],
+      "wiki": "Dust_King",
+      "lore": {
+        "es": "Líder de los Bandidos del Polvo en la Torre del Rey del Polvo, con Jefes del Polvo entre su guardia.",
+        "en": "Leader of the Dust Bandits in the Dust King Tower, with Dust Bosses among his guard."
+      },
+      "name_es": "Rey de la Polvareda",
+      "game_lore": {
+        "es": "El líder de los celebérrimos Bandidos de la Polvareda, se cree que se está escondiendo en algún lugar de la Zona Fronteriza.  \\n\\nRECOMPENSA: c.30,000",
+        "en": "The leader of the notorious Dust Bandits, he is thought to be hiding out somewhere in the Border Zone.  \\n\\nREWARD: c.30,000"
+      },
+      "poster_reward": 30000
+    },
+    {
+      "id": "psycho",
+      "name": "Psycho",
+      "tier": "unique",
+      "reward": 35000,
+      "difficulty": 3,
+      "location": "Tengu's Vault",
+      "faction": null,
+      "race": "Greenlander",
+      "weapon": "martial-arts",
+      "turnIn": [
+        "United Cities",
+        "Rebel Swordsmen"
+      ],
+      "notes": [
+        "noPoster"
+      ],
+      "wiki": "Psycho",
+      "lore": {
+        "es": "Luchador de artes marciales que se esconde en la Bóveda de Tengu.",
+        "en": "Martial-arts fighter hiding in Tengu's Vault."
+      }
+    },
+    {
+      "id": "flying-bull",
+      "name": "Flying Bull",
+      "tier": "boss",
+      "reward": 30000,
+      "difficulty": 3,
+      "location": "New Kralia",
+      "faction": "Kral's Chosen",
+      "race": "Shek",
+      "weapon": "Ancient Bull Horn Axe",
+      "turnIn": [
+        "Shek Kingdom"
+      ],
+      "notes": [
+        "poster",
+        "higherThanPoster"
+      ],
+      "wiki": "Flying_Bull",
+      "lore": {
+        "es": "Jefe shek de Nueva Kralia, hogar de los Elegidos de Kral. Se entrega al Reino Shek.",
+        "en": "Shek boss of New Kralia, home of Kral's Chosen. Turn him in to the Shek Kingdom."
+      },
+      "name_es": "Toro Volador",
+      "game_lore": {
+        "es": "Raza: Shek\\nGénero: Varón\\n\\nExtremista y traidor a la Gólem de Piedra. Se llama a sí mismo el Elegido de Kral.\\n\\n\\nRECOMPENSA: c.25,000",
+        "en": "Race: Shek\\nGender: Male\\n\\nExtremist and traitor to the Stone Golem. Names himself as Kral's Chosen.\\n\\n\\nREWARD: c.25,000"
+      },
+      "poster_reward": 25000
+    },
+    {
+      "id": "grey",
+      "name": "Grey",
+      "tier": "boss",
+      "reward": 30000,
+      "difficulty": 4,
+      "location": "Spring",
+      "faction": "Anti-Slavers",
+      "race": "Hive Prince",
+      "weapon": "Skeleton Smiths Falling Sun",
+      "turnIn": [
+        "United Cities",
+        "Rebel Swordsmen",
+        "The Holy Nation"
+      ],
+      "notes": [
+        "noPoster"
+      ],
+      "wiki": "Grey",
+      "lore": {
+        "es": "Príncipe de la Colmena que lucha junto a los Antiesclavistas en Manantial.",
+        "en": "Hive Prince who fights alongside the Anti-Slavers in Spring."
+      }
+    },
+    {
+      "id": "jaegar",
+      "name": "Jaegar",
+      "tier": "unique",
+      "reward": 30000,
+      "difficulty": 4,
+      "location": "Spring",
+      "faction": "Anti-Slavers",
+      "race": "Scorchlander",
+      "weapon": "Skeleton Smiths Naginata Katana",
+      "turnIn": [
+        "United Cities",
+        "Rebel Swordsmen",
+        "The Holy Nation"
+      ],
+      "notes": [
+        "noPoster"
+      ],
+      "wiki": "Jaegar",
+      "lore": {
+        "es": "Scorchlander que combate con los Antiesclavistas en Manantial.",
+        "en": "Scorchlander who fights with the Anti-Slavers in Spring."
+      }
+    },
+    {
+      "id": "bo",
+      "name": "Bo",
+      "tier": "unique",
+      "reward": 30000,
+      "difficulty": 2,
+      "location": "Black Scratch",
+      "faction": null,
+      "race": null,
+      "weapon": "Ancient Ninja Blade",
+      "turnIn": [
+        "United Cities",
+        "Rebel Swordsmen",
+        "The Holy Nation"
+      ],
+      "notes": [
+        "noPoster"
+      ],
+      "wiki": "Bo",
+      "lore": {
+        "es": "Criminal buscada que se encuentra temprano en la partida. Puedes entregarla o liberarla de su jaula: es posible que se una a ti.",
+        "en": "A wanted fighter you can find early in a playthrough. Turn her in, or break her out of her cage: she may join you."
+      }
+    },
+    {
+      "id": "meat-lord",
+      "name": "Meat Lord",
+      "tier": "unique",
+      "reward": 30000,
+      "difficulty": 3,
+      "location": "First Village (Darkfinger)",
+      "faction": null,
+      "race": "Cannibal",
+      "weapon": "Ancient Long Cleaver",
+      "turnIn": [
+        "United Cities",
+        "Rebel Swordsmen",
+        "The Holy Nation",
+        "Shek Kingdom"
+      ],
+      "notes": [
+        "noPoster"
+      ],
+      "wiki": "Meat_Lord",
+      "lore": {
+        "es": "Jefe caníbal con base en la Primera Aldea (Darkfinger).",
+        "en": "Cannibal boss based in First Village (Darkfinger)."
+      }
+    },
+    {
+      "id": "luquin",
+      "name": "Luquin",
+      "tier": "unique",
+      "reward": 30000,
+      "difficulty": 3,
+      "location": "Tengu's Vault",
+      "faction": null,
+      "race": null,
+      "weapon": "martial-arts",
+      "turnIn": [
+        "United Cities",
+        "Rebel Swordsmen"
+      ],
+      "notes": [
+        "noPoster"
+      ],
+      "wiki": "Luquin",
+      "lore": {
+        "es": "Luchador de artes marciales buscado, oculto en la Bóveda de Tengu.",
+        "en": "Wanted martial-arts fighter hiding in Tengu's Vault."
+      }
+    },
+    {
+      "id": "hex",
+      "name": "Hex",
+      "tier": "unique",
+      "reward": 25000,
+      "difficulty": 3,
+      "location": "Tengu's Vault",
+      "faction": null,
+      "race": "Scorchlander",
+      "weapon": "martial-arts",
+      "turnIn": [
+        "United Cities",
+        "Rebel Swordsmen"
+      ],
+      "notes": [
+        "noPoster"
+      ],
+      "wiki": "Hex",
+      "lore": {
+        "es": "Luchador de artes marciales que se esconde en la Bóveda de Tengu.",
+        "en": "Martial-arts fighter hiding in Tengu's Vault."
+      }
+    },
+    {
+      "id": "sinklyde",
+      "name": "Sinklyde",
+      "tier": "unique",
+      "reward": 25000,
+      "difficulty": 3,
+      "location": "Tengu's Vault",
+      "faction": null,
+      "race": null,
+      "weapon": "martial-arts",
+      "turnIn": [
+        "United Cities",
+        "Rebel Swordsmen"
+      ],
+      "notes": [
+        "noPoster"
+      ],
+      "wiki": "Sinklyde",
+      "lore": {
+        "es": "Luchador de artes marciales buscado, oculto en la Bóveda de Tengu.",
+        "en": "Wanted martial-arts fighter hiding in Tengu's Vault."
+      }
+    },
+    {
+      "id": "boss-simion",
+      "name": "Boss Simion",
+      "tier": "boss",
+      "reward": 20000,
+      "difficulty": 3,
+      "location": "Fort Simion",
+      "faction": "Rebel Farmers",
+      "race": "Greenlander",
+      "weapon": "Edgewalkers Horse Chopper",
+      "turnIn": [
+        "United Cities",
+        "Rebel Swordsmen"
+      ],
+      "notes": [
+        "noPoster"
+      ],
+      "wiki": "Boss_Simion",
+      "lore": {
+        "es": "Jefe de los Granjeros Rebeldes, atrincherado en el Fuerte Simion.",
+        "en": "Boss of the Rebel Farmers, entrenched in Fort Simion."
+      }
+    },
+    {
+      "id": "buzan",
+      "name": "Buzan",
+      "tier": "unique",
+      "reward": 20000,
+      "difficulty": 3,
+      "location": "Tower Of Ninjas",
+      "faction": null,
+      "race": "Scorchlander",
+      "weapon": "2x Ancient Ninja Blade",
+      "turnIn": [
+        "The Holy Nation"
+      ],
+      "notes": [
+        "noPoster"
+      ],
+      "wiki": "Buzan",
+      "lore": {
+        "es": "Ninja apostado en la Torre de los Ninjas, buscado por la Nación Sagrada.",
+        "en": "Ninja stationed in the Tower Of Ninjas, wanted by the Holy Nation."
+      }
+    },
+    {
+      "id": "dimak",
+      "name": "Dimak",
+      "tier": "unique",
+      "reward": 20000,
+      "difficulty": 3,
+      "location": "Tower Of Ninjas",
+      "faction": null,
+      "race": "Shek",
+      "weapon": "Meitou Ninja Blade",
+      "turnIn": [
+        "The Holy Nation"
+      ],
+      "notes": [
+        "noPoster"
+      ],
+      "wiki": "Dimak",
+      "lore": {
+        "es": "Ninja shek apostado en la Torre de los Ninjas, buscado por la Nación Sagrada.",
+        "en": "Shek ninja stationed in the Tower Of Ninjas, wanted by the Holy Nation."
+      }
+    },
+    {
+      "id": "mighty-canhead",
+      "name": "Mighty Canhead",
+      "tier": "unique",
+      "reward": 20000,
+      "difficulty": 3,
+      "location": null,
+      "faction": null,
+      "race": "Cannibal",
+      "weapon": "Ancient Moon Cleaver",
+      "turnIn": [
+        "United Cities",
+        "Rebel Swordsmen",
+        "The Holy Nation",
+        "Shek Kingdom"
+      ],
+      "notes": [
+        "noPoster"
+      ],
+      "wiki": "Mighty_Canhead",
+      "lore": {
+        "es": "Caníbal sin hogar fijo que aparece durante un evento especial (incursión).",
+        "en": "Cannibal with no fixed home who shows up during a special event (raid)."
+      }
+    },
+    {
+      "id": "ponk",
+      "name": "Ponk",
+      "tier": "boss",
+      "reward": 20000,
+      "difficulty": 3,
+      "location": "Tower of Abuse",
+      "faction": null,
+      "race": "Skeleton P4MkII",
+      "weapon": "Meitou Holed Sabre",
+      "turnIn": [
+        "United Cities",
+        "Rebel Swordsmen",
+        "The Holy Nation"
+      ],
+      "notes": [
+        "noPoster"
+      ],
+      "wiki": "Ponk",
+      "lore": {
+        "es": "Jefe esqueleto que ronda la Torre del Abuso.",
+        "en": "Skeleton boss who haunts the Tower of Abuse."
+      }
+    },
+    {
+      "id": "screamer-the-false",
+      "name": "Screamer the False",
+      "tier": "boss",
+      "reward": 20000,
+      "difficulty": 3,
+      "location": "Tower of Abuse",
+      "faction": null,
+      "race": "Screamer MkI",
+      "weapon": "Meitou Heavy Polearm",
+      "turnIn": [
+        "United Cities",
+        "Rebel Swordsmen",
+        "The Holy Nation"
+      ],
+      "notes": [
+        "noPoster"
+      ],
+      "wiki": "Screamer_the_False",
+      "lore": {
+        "es": "Jefe que habita la Torre del Abuso, armado con un Arma de asta pesada Meitou.",
+        "en": "Boss who lives in the Tower of Abuse, armed with a Meitou Heavy Polearm."
+      }
+    },
+    {
+      "id": "screamy",
+      "name": "Screamy",
+      "tier": "unique",
+      "reward": 20000,
+      "difficulty": 3,
+      "location": "Tengu's Vault",
+      "faction": null,
+      "race": null,
+      "weapon": "martial-arts",
+      "turnIn": [
+        "United Cities",
+        "Rebel Swordsmen"
+      ],
+      "notes": [
+        "noPoster"
+      ],
+      "wiki": "Screamy",
+      "lore": {
+        "es": "Luchador de artes marciales buscado, oculto en la Bóveda de Tengu.",
+        "en": "Wanted martial-arts fighter hiding in Tengu's Vault."
+      }
+    },
+    {
+      "id": "shade",
+      "name": "Shade",
+      "tier": "boss",
+      "reward": 20000,
+      "difficulty": 3,
+      "location": "Swamp Ninja Base",
+      "faction": "Swamp Ninjas",
+      "race": "Scorchlander",
+      "weapon": "Edgewalkers Guardless Katana",
+      "turnIn": [
+        "Shek Kingdom"
+      ],
+      "notes": [
+        "poster"
+      ],
+      "wiki": "Shade",
+      "lore": {
+        "es": "Jefe de la base de los Ninjas del Pantano, buscado por el Reino Shek.",
+        "en": "Boss of the Swamp Ninja Base, wanted by the Shek Kingdom."
+      },
+      "name_es": "Sombra",
+      "game_lore": {
+        "es": "Raza: Chasmusklandés\\nGénero: Femenino\\nDescripción: 'Suave y blanda'\\n\\nGentuza ninja empuña-dagas buscada por actos de robo y engaños en general. Por favor, llévala a dormir a su patética existencia y quizás así pueda reunirse con sus agallas en las podridas y comidas por gusanos profundidades de la vida de ultratumba de una cobarde. Última vez vista en las ciénagas encogida de miedo en el agujero de un rapaz.\\n\\n\\nRECOMPENSA: c.20,000",
+        "en": "Race: Scorchlander\\nGender: Female\\nDescription: 'Soft and floppy'\\n\\nDagger-wielding ninja trash wanted for acts of theft and general deviousness. Please put her out of her pitiful existence where perhaps she might be reunited with her spine in the rotten, maggot eating depths of a coward's afterlife. Last seen cowering in a raptor hole in the swamps.\\n\\n\\nREWARD: c.20,000"
+      },
+      "poster_reward": 20000
+    },
+    {
+      "id": "seto",
+      "name": "Seto",
+      "tier": "unique",
+      "reward": 20000,
+      "difficulty": 2,
+      "location": "Admag",
+      "faction": null,
+      "race": null,
+      "weapon": "Catun Plank",
+      "turnIn": [
+        "The Holy Nation"
+      ],
+      "notes": [
+        "noPoster"
+      ],
+      "wiki": "Seto",
+      "lore": {
+        "es": "Objetivo de la Nación Sagrada, hallado en Admag.",
+        "en": "A Holy Nation target, found in Admag."
+      }
+    },
+    {
+      "id": "no-face",
+      "name": "No-Face",
+      "tier": "unique",
+      "reward": 15000,
+      "difficulty": 2,
+      "location": "Strange Camp (Gut)",
+      "faction": null,
+      "race": "Scorchlander",
+      "weapon": "Skeleton Smiths Longsword + Oldworld Bow MkI",
+      "turnIn": [
+        "United Cities",
+        "Rebel Swordsmen"
+      ],
+      "notes": [
+        "noPoster"
+      ],
+      "wiki": "No-Face",
+      "lore": {
+        "es": "Scorchlander que se encuentra en el Campamento Extraño (Gut), con arco y espada larga.",
+        "en": "Scorchlander found at the Strange Camp (Gut), carrying a bow and a longsword."
+      }
+    },
+    {
+      "id": "the-preacher",
+      "name": "The Preacher",
+      "tier": "unique",
+      "reward": 15000,
+      "difficulty": 3,
+      "location": "Cult Village",
+      "faction": "Preacher Cult",
+      "race": "Hive Prince",
+      "weapon": "Meitou Moon Cleaver",
+      "turnIn": [
+        "United Cities",
+        "Rebel Swordsmen",
+        "The Holy Nation",
+        "Shek Kingdom"
+      ],
+      "notes": [
+        "poster"
+      ],
+      "wiki": "The_Preacher",
+      "lore": {
+        "es": "Príncipe de la Colmena al frente del Culto del Predicador, en la Aldea del Culto.",
+        "en": "Hive Prince at the head of the Preacher Cult in Cult Village."
+      },
+      "name_es": "El Predicador",
+      "game_lore": {
+        "es": "Raza: Enjambre\\nGénero: NS/NC\\nDescripción de testigos: '¡Joder, como un monigote! ¿Qué más quieres que te diga?'\\n\\nLíder del creciente culto a la 'naturaleza' se cree responsable de la desaparición de cientos de viajeros en la región del desierto. Debe ser entregado a la policía con vida para su interrogatorio.\\n\\nRECOMPENSA: c.15,000",
+        "en": "Race: Hiver\\nGender: N/A\\nEyewitness' description: 'Hell, like a stickman! What more do you want me to say?' \\n\\nLeader of growing 'nature' cult thought to be responsible for the disappearance of over hundreds of travellers in the desert region. Must be returned to the police alive for interrogation.  \\n\\nREWARD: c.15,000"
+      },
+      "poster_reward": 15000
+    },
+    {
+      "id": "blue-eyes",
+      "name": "Blue Eyes",
+      "tier": "unique",
+      "reward": 10000,
+      "difficulty": 2,
+      "location": "Mourn",
+      "faction": null,
+      "race": "Greenlander",
+      "weapon": "martial-arts",
+      "turnIn": [
+        "United Cities",
+        "Rebel Swordsmen"
+      ],
+      "notes": [
+        "poster"
+      ],
+      "wiki": "Blue_Eyes",
+      "lore": {
+        "es": "Luchador de artes marciales que se encuentra en Mourn.",
+        "en": "Martial-arts fighter found in Mourn."
+      },
+      "name_es": "Ojoasules",
+      "game_lore": {
+        "es": "Raza: Verdenés/ Chamusklandés\\nGénero: Femenino\\n\\nFugitiva buscada por crímenes de fraude, extorsión, contrabando, suplantación de identidad de un oficial, engaño y robo. Responsable por estafar a innumerables Ciudadanos Unidos por millones de Cats. Experta del incógnito con una apariencia cambiante, sin embargo, también una conocida presumida y borracha cuya bocaza será sin lugar a dudas su perdición; se recomienda a los cazadores no buscar con los ojos, sino con las orejas bien abiertas.\\n\\n\\nRECOMPENSA: c.10,000",
+        "en": "Race: Greenlander/ Scorchlander\\nGender: Female\\n\\nFugitive wanted for crimes of fraud, extortion, smuggling, impersonation of an official, trickery and theft. Responsible for scamming countless United Citizens out of millions of Cats. Master of disguise with an everchanging appearance, however also a known  braggart and drunkard whose loud mouth will certainly be her downfall; recommend hunters search not with eyes, but with ears peeled.\\n\\n\\nREWARD: c.10,000"
+      },
+      "poster_reward": 10000
+    },
+    {
+      "id": "ghost",
+      "name": "Ghost",
+      "tier": "boss",
+      "reward": 10000,
+      "difficulty": 3,
+      "location": "Berserker Village",
+      "faction": "Berserkers",
+      "race": "Shek",
+      "weapon": "Ancient Fragment Axe",
+      "turnIn": [
+        "Shek Kingdom"
+      ],
+      "notes": [
+        "poster"
+      ],
+      "wiki": "Ghost",
+      "lore": {
+        "es": "Jefe shek de la Aldea Berserker, buscado por el Reino Shek.",
+        "en": "Shek boss of Berserker Village, wanted by the Shek Kingdom."
+      },
+      "name_es": "Fantasma",
+      "game_lore": {
+        "es": "Raza: Shek\\nGénero: Varón\\n\\nBeligerante conocido por estar acampado en las Llanuras de la Araña como líder de los Desquiciados.\\n\\n\\nRECOMPENSA: c.10,000",
+        "en": "Race: Shek\\nGender: Male\\n\\nWarmongerer known to be camped in the Spider Plains as leader of the Berserkers. \\n\\n\\nREWARD: c.10,000"
+      },
+      "poster_reward": 10000
+    },
+    {
+      "id": "gutterhead",
+      "name": "Gutterhead",
+      "tier": "unique",
+      "reward": 10000,
+      "difficulty": 2,
+      "location": "Old Control Tower",
+      "faction": null,
+      "race": "Scorchlander",
+      "weapon": "Mercenary Club / Tooth Pick",
+      "turnIn": [
+        "United Cities",
+        "Rebel Swordsmen"
+      ],
+      "notes": [
+        "poster"
+      ],
+      "wiki": "Gutterhead",
+      "lore": {
+        "es": "Scorchlander apostado en la Vieja Torre de Control.",
+        "en": "Scorchlander stationed in the Old Control Tower."
+      },
+      "name_es": "Destripatriarca",
+      "game_lore": {
+        "es": "Género: Varón\\n\\nLíder de los Basureros, se busca por numerosos ataques y robos en las carreteras de Ganza.\\nLocalizado al sur del desierto, más allá del Ojo.\\n\\nRECOMPENSA: c.10,000",
+        "en": "Gender: Male\\n\\nLeader of the Scavengers wanted for numerous attacks and robberies on the roads of Venge. \\nLocated south of the desert, beyond the Eye.\\n\\nREWARD: c.10,000"
+      },
+      "poster_reward": 10000
+    },
+    {
+      "id": "razor",
+      "name": "Razor",
+      "tier": "unique",
+      "reward": 10000,
+      "difficulty": 2,
+      "location": "Black Desert City",
+      "faction": null,
+      "race": "Hive Soldier Drone",
+      "weapon": "Catun Longsword",
+      "turnIn": [
+        "United Cities",
+        "Rebel Swordsmen"
+      ],
+      "notes": [
+        "poster"
+      ],
+      "wiki": "Razor",
+      "lore": {
+        "es": "Dron soldado de la Colmena que se encuentra en la Ciudad del Desierto Negro.",
+        "en": "Hive Soldier Drone found in Black Desert City."
+      },
+      "name_es": "Razor",
+      "game_lore": {
+        "es": "Raza: Enjambre\\nGénero: NS/NC\\nDescripción: Tonalidad algosa, brillo en los ojos, mandíbulas angulosas\\n\\nSe busca por la persecución y castigo de un miembro estimado de las Ciudades Unidas. Se hace saber que ningún enemigo de la nobleza escapará al castigo de la Bóveda de Tengu.\\n\\nDebe ser entregado con vida.\\n\\n\\nRECOMPENSA:c.10,000",
+        "en": "Race: Hiver\\nGender: N/A\\nDescription: Algae hued, shiny eyed, angular cheek bones\\n\\nWanted for victimization of an esteemed member of the United Cities. Let it be known that no enemies of the nobility will escape punishment from Tengu's Vault.\\n\\nMust be delivered alive.\\n\\n\\nREWARD: c.10,000"
+      },
+      "poster_reward": 10000
+    },
+    {
+      "id": "red-sabre-boss",
+      "name": "Red Sabre Boss",
+      "tier": "boss",
+      "reward": 10000,
+      "difficulty": 2,
+      "location": "Red Sabre Hideout",
+      "faction": null,
+      "race": "Greenlander",
+      "weapon": "Meitou Horse Chopper",
+      "turnIn": [
+        "United Cities",
+        "Rebel Swordsmen",
+        "Shek Kingdom"
+      ],
+      "notes": [
+        "noPoster"
+      ],
+      "wiki": "Red_Sabre_Boss",
+      "lore": {
+        "es": "Jefe de la banda del Escondite Sable Rojo.",
+        "en": "Gang boss of the Red Sabre Hideout."
+      }
+    },
+    {
+      "id": "sand-ninja-oni",
+      "name": "Sand Ninja Oni",
+      "tier": "boss",
+      "reward": 10000,
+      "difficulty": 3,
+      "location": "Cactus Den",
+      "faction": "Sand Ninjas",
+      "race": "Scorchlander",
+      "weapon": "2x Catun Ninja Blade",
+      "turnIn": [
+        "United Cities",
+        "Rebel Swordsmen"
+      ],
+      "notes": [
+        "sharedBounty",
+        "poster"
+      ],
+      "wiki": "Sand_Ninja_Oni",
+      "lore": {
+        "es": "Jefe de los Ninjas de Arena en la Guarida del Cactus, con dos hojas ninja.",
+        "en": "Boss of the Sand Ninjas in Cactus Den, dual-wielding ninja blades."
+      },
+      "name_es": "Oni, Ninja de la Arena",
+      "game_lore": {
+        "es": "Raza: Chamusklandés\\nGénero: Femenino\\nDescripción: Ninja-y\\n\\nLíder de los bandidos ninjas de la arena. Denunciada con frecuencia por actividad ninja agresiva por la zona del Gran Desierto.\\n\\nAVISO: MUY sigilosa.\\n\\nRECOMPENSA: c.10,000",
+        "en": "Race: Scorchlander\\nGender: Female\\nDescription: Ninja-y\\n\\nLeader of the sand ninja bandits. Aggressive ninja activity frequently reported around the Great Desert area.\\n\\nWARNING: VERY sneaky.\\n\\nREWARD: c.10,000"
+      },
+      "poster_reward": 10000
+    },
+    {
+      "id": "tora-the-fearless",
+      "name": "Tora the Fearless",
+      "tier": "boss",
+      "reward": 10000,
+      "difficulty": 3,
+      "location": "Exile Camp",
+      "faction": "Band of Bones",
+      "race": "Shek",
+      "weapon": "Ancient Combat Cleaver",
+      "turnIn": [
+        "Shek Kingdom"
+      ],
+      "notes": [
+        "poster"
+      ],
+      "wiki": "Tora_the_Fearless",
+      "lore": {
+        "es": "Jefe shek de la Banda de Huesos en el Campamento del Exilio. Se entrega al Reino Shek.",
+        "en": "Shek boss of the Band of Bones at the Exile Camp. Turn him in to the Shek Kingdom."
+      },
+      "poster_name": "Tora The Gutless",
+      "name_es": "Tora La Cagueta",
+      "game_lore": {
+        "es": "Raza: Shek\\nGénero: Hembra\\n\\nCriada shek deshonrada que ha roto la ley del guerrero al negarse a renunciar a su hoja, y en su lugar recurrir a crímenes menores de bandidismo en las arenas de Stenn.\\n\\n\\nRECOMPENSA: c.10,000",
+        "en": "Race: Shek\\nGender: Female\\n\\nDishonoured shek retainer who has broken warrior law by refusing to give up the blade, instead resorting to lowly crimes of banditry in the Stenn sands.\\n\\n\\nREWARD: c.10,000"
+      },
+      "poster_reward": 10000
+    },
+    {
+      "id": "yabuta-of-the-sands",
+      "name": "Yabuta of the Sands",
+      "tier": "unique",
+      "reward": 10000,
+      "difficulty": 3,
+      "location": "Tengu's Vault",
+      "faction": null,
+      "race": "Scorchlander",
+      "weapon": "martial-arts",
+      "turnIn": [
+        "United Cities",
+        "Rebel Swordsmen"
+      ],
+      "notes": [
+        "noPoster"
+      ],
+      "wiki": "Yabuta_of_the_Sands",
+      "lore": {
+        "es": "Luchador de artes marciales de las arenas, buscado por las ciudades.",
+        "en": "Martial-arts fighter of the sands, wanted by the cities."
+      }
+    },
+    {
+      "id": "ells",
+      "name": "Ells",
+      "tier": "unique",
+      "reward": 1000,
+      "difficulty": 1,
+      "location": "Sho-Battai",
+      "faction": null,
+      "race": "Shek",
+      "weapon": "martial-arts",
+      "turnIn": [
+        "United Cities",
+        "Rebel Swordsmen",
+        "The Holy Nation",
+        "Shek Kingdom"
+      ],
+      "notes": [
+        "poster"
+      ],
+      "wiki": "Ells",
+      "lore": {
+        "es": "El shek más corpulento que verás: imposible no notarlo. Una recompensa modesta.",
+        "en": "The fattest Shek you will ever see: hard to miss. A modest bounty."
+      },
+      "name_es": "Ells",
+      "game_lore": {
+        "es": "Raza: Verdenés\\nGénero: Varón\\n\\nMolestia pública y buscado por diversos robos de bares.\\n\\nRECOMPENSA: c.1000",
+        "en": "Race: Greenlander\\nGender: Male\\nEyewitness description: 'Fat as a bughouse'\\n\\nPublic nuisance wanted on account of multiple bar thefts. \\n\\nREWARD: c.1000"
+      },
+      "poster_reward": 1000
+    }
+  ]
+}

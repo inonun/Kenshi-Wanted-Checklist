@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="es" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kenshi · Bounty Checklist</title>
+    <meta
+      name="description"
+      content="Wanted bounties checklist for Kenshi, with progress saved."
+    />
+    <meta name="color-scheme" content="dark light" />
+    <meta name="theme-color" content="#0b1220" />
+    <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg" />
+
+    <!-- Aplica el tema guardado antes de pintar (evita parpadeo) -->
+    <script src="js/theme-init.js"></script>
+
+    <link rel="stylesheet" href="css/tokens.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/components.css" />
+
+    <script type="module" src="js/main.js"></script>
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="container site-header__bar">
+        <div class="brand">
+          <span class="brand__name">Kenshi</span>
+        </div>
+
+        <div class="site-header__actions">
+          <div class="segmented" role="group" data-i18n-aria-label="header.language" aria-label="Idioma">
+            <button class="segmented__btn" type="button" data-lang="es" aria-pressed="true">ES</button>
+            <button class="segmented__btn" type="button" data-lang="en" aria-pressed="false">EN</button>
+          </div>
+          <button class="btn btn--icon" id="btn-theme" type="button" aria-label="Cambiar tema">☀</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <h1 class="hero__title" data-i18n="app.title">Se busca</h1>
+        <p class="hero__subtitle" data-i18n="app.subtitle">Checklist de recompensas de Kenshi</p>
+        <p class="hero__text" data-i18n="app.description"></p>
+      </section>
+
+      <section id="load-error" class="state-box state-box--error" hidden role="alert">
+        <h2 class="state-box__title" data-i18n="errors.loadTitle">No se pudieron cargar los datos</h2>
+        <p data-i18n="errors.loadText"></p>
+      </section>
+
+      <div id="app-content">
+        <section class="dashboard" aria-labelledby="progress-title">
+          <div class="panel">
+            <h2 class="panel__title" id="progress-title" data-i18n="progress.title">Progreso</h2>
+
+            <div class="progress__summary">
+              <span class="progress__count" id="progress-count" aria-live="polite"></span>
+              <span class="progress__percent" id="progress-percent"></span>
+            </div>
+
+            <div
+              class="meter"
+              id="progress-meter"
+              role="progressbar"
+              aria-labelledby="progress-title"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              aria-valuenow="0"
+            >
+              <div class="meter__fill" id="progress-fill"></div>
+            </div>
+
+            <div class="progress__rewards">
+              <div class="stat">
+                <span class="stat__label" data-i18n="progress.claimed">Cobrado</span>
+                <span class="stat__value stat__value--done" id="reward-claimed"></span>
+              </div>
+              <div class="stat">
+                <span class="stat__label" data-i18n="progress.remaining">Por cobrar</span>
+                <span class="stat__value" id="reward-remaining"></span>
+              </div>
+            </div>
+
+            <div class="progress__footer">
+              <span class="progress__hint" data-i18n="progress.estimate"></span>
+              <button class="btn btn--danger" id="btn-reset-progress" type="button" data-i18n="progress.reset">
+                Reiniciar progreso
+              </button>
+            </div>
+          </div>
+
+          <aside class="panel panel--tip">
+            <h2 class="panel__title" data-i18n="tip.title">Consejo</h2>
+            <p data-i18n="tip.text"></p>
+            <p class="panel__note" data-i18n="difficulty.hint"></p>
+          </aside>
+        </section>
+
+        <section class="page-section" aria-label="Filtros">
+          <div class="toolbar">
+            <div class="field toolbar__search">
+              <label class="field__label" for="search" data-i18n="filters.search">Buscar</label>
+              <input
+                class="input"
+                id="search"
+                type="search"
+                autocomplete="off"
+                data-i18n-placeholder="filters.searchPlaceholder"
+              />
+            </div>
+
+            <div class="field">
+              <label class="field__label" for="filter-tier" data-i18n="filters.tier">Categoría</label>
+              <select class="select" id="filter-tier"></select>
+            </div>
+
+            <div class="field">
+              <label class="field__label" for="filter-status" data-i18n="filters.status">Estado</label>
+              <select class="select" id="filter-status"></select>
+            </div>
+
+            <div class="field">
+              <label class="field__label" for="filter-sort" data-i18n="filters.sort">Ordenar por</label>
+              <select class="select" id="filter-sort"></select>
+            </div>
+
+            <button class="btn btn--ghost" id="btn-clear-filters" type="button" data-i18n="filters.reset">
+              Limpiar filtros
+            </button>
+          </div>
+        </section>
+
+        <p class="results-bar" id="results-count" aria-live="polite"></p>
+
+        <ul class="grid" id="wanted-list"></ul>
+
+        <section id="empty-state" class="state-box" hidden>
+          <h2 class="state-box__title" data-i18n="empty.title">Sin resultados</h2>
+          <p data-i18n="empty.text"></p>
+          <button class="btn" id="empty-clear" type="button" data-i18n="empty.clear">Limpiar filtros</button>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer container">
+      <p data-i18n="footer.sources"></p>
+      <p data-i18n="footer.disclaimer"></p>
+    </footer>
+  </body>
+</html>

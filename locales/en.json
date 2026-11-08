@@ -1,0 +1,102 @@
+{
+  "app": {
+    "documentTitle": "Kenshi · Wanted — Bounty checklist",
+    "title": "Wanted",
+    "subtitle": "Kenshi bounty checklist",
+    "description": "Tick off the criminals you have already captured. Your progress is saved in this browser, so you can refresh the page without losing it."
+  },
+  "header": {
+    "language": "Language",
+    "themeToLight": "Switch to light mode",
+    "themeToDark": "Switch to dark mode"
+  },
+  "tip": {
+    "title": "Tip",
+    "text": "Deliver the criminal alive to collect the full bounty. Handing in a corpse only pays half."
+  },
+  "progress": {
+    "title": "Progress",
+    "captured": "{done} of {total} captured",
+    "claimed": "Collected",
+    "remaining": "Still to collect",
+    "estimate": "Approximate values in cats",
+    "reset": "Reset progress",
+    "resetConfirm": "Are you sure you want to erase all your progress? This cannot be undone."
+  },
+  "filters": {
+    "search": "Search",
+    "searchPlaceholder": "Name, place, faction, weapon…",
+    "tier": "Category",
+    "tierAll": "All",
+    "status": "Status",
+    "statusOptions": {
+      "all": "All",
+      "pending": "Pending",
+      "done": "Captured"
+    },
+    "sort": "Sort by",
+    "sortOptions": {
+      "rewardDesc": "Reward (high to low)",
+      "rewardAsc": "Reward (low to high)",
+      "name": "Name (A-Z)",
+      "location": "Location (A-Z)",
+      "difficultyDesc": "Difficulty (high to low)",
+      "difficultyAsc": "Difficulty (low to high)"
+    },
+    "reset": "Clear filters",
+    "results": "Showing {shown} of {total}"
+  },
+  "tiers": {
+    "superboss": "Superboss",
+    "boss": "Boss",
+    "unique": "Unique NPC"
+  },
+  "card": {
+    "wanted": "Wanted",
+    "reward": "Reward",
+    "cats": "cats",
+    "location": "Location",
+    "faction": "Faction",
+    "race": "Race",
+    "weapon": "Weapon",
+    "turnIn": "Turn in to",
+    "captured": "Captured",
+    "markCaptured": "Mark {name} as captured",
+    "wiki": "Wiki",
+    "noFixedHome": "No fixed home (special event)",
+    "originalName": "Original name"
+  },
+  "notes": {
+    "poster": "Only the wanted-poster value is known; the in-game amount may differ.",
+    "headSale": "No body to deliver: loot the head and sell it to any vendor.",
+    "sharedBounty": "The United Cities and the Traders Guild share bounties, so the wiki lists this one as doubled (c.20,000).",
+    "higherThanPoster": "The in-game bounty is higher than the printed poster.",
+    "noPoster": "There is no wanted poster, but the game sets a bounty."
+  },
+  "empty": {
+    "title": "No results",
+    "text": "No criminal matches the current filters.",
+    "clear": "Clear filters"
+  },
+  "errors": {
+    "loadTitle": "Could not load the data",
+    "loadText": "If you opened index.html straight from disk, the browser blocks loading JSON files. Serve the folder with a local server (for example: python -m http.server) or publish it on GitHub Pages."
+  },
+  "footer": {
+    "sources": "Data from the Kenshi Wiki (CC BY-SA) and Kenshi game files.",
+    "disclaimer": "Fan project, not affiliated with Lo-Fi Games. Kenshi © Lo-Fi Games Ltd."
+  },
+  "difficulty": {
+    "label": "Difficulty",
+    "estimated": "estimated",
+    "hint": "* Estimated difficulty: our own rating based on guards, surroundings and combat level. It is not official game data.",
+    "aria": "Estimated difficulty: {level} of 5 ({name})",
+    "levels": {
+      "1": "Easy",
+      "2": "Moderate",
+      "3": "Hard",
+      "4": "Very hard",
+      "5": "Extreme"
+    }
+  }
+}
